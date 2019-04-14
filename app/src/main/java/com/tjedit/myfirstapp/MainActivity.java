@@ -33,9 +33,13 @@ public class MainActivity extends AppCompatActivity {
                String userPw=userPwEdt.getText().toString();
 
 
-                Toast.makeText(MainActivity.this, "userId", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, userId, Toast.LENGTH_SHORT).show();
 
                 contentTxt.setText(String.format("ID : %s, PW : %s",userId,userPw));
+
+
+
+
             }
         });
 
